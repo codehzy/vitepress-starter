@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 const { getTsSidebar, getVueSidebar } = require('./sidebar')
 
 export default defineConfig({
-  base: '/vitepress-starter/dist/',
+  base: '/vitepress-starter',
   title: '我的博客',
   description: '我的vitepress博客',
   head: [
